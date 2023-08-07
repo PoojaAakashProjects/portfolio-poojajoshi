@@ -7,6 +7,8 @@ import Projects from './components/Projects';
 import hackerrank from './images/hackerrank.svg'
 import geeks from './images/geeksforgeeks.svg'
 import leet from './images/leetcode-white.svg'
+import resume from './images/Pooja_Resume_2023.pdf';
+import ResumePage from './components/ResumePage';
 
 
 function App() {
@@ -18,7 +20,7 @@ function App() {
         <Route  path = '/' >
         <Route index  element={<Home/>} />
         <Route path = '/projects' element={<Projects/>} />
-        {/* <Route path = '/resume' element={Resume} /> */}
+        <Route path = '/resume' element={<ResumePage/>} />
         </Route>
       </Routes>
      

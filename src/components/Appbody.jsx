@@ -2,7 +2,7 @@ import '../App.css';
 import {Link,Route,Routes,NavLink} from 'react-router-dom';
 import Home from './Home'
 import Projects from './Projects';
-import Resume from '../images/Pooja_Resume_2023.pdf';
+import resume from '../images/Pooja_Resume_2023.pdf';
 
 function Appbody() {
   return (
@@ -21,7 +21,11 @@ function Appbody() {
         activeClassName="activeLink"
         className="links"
         >Projects</NavLink></li>
-        <li className='list'><a className="links" href = {Resume}>Resume</a></li>
+          <li className='list'><NavLink to = '/resume'
+        activeClassName="activeLink"
+        className="links"
+        >Resume</NavLink></li>
+        {/* <li className='list'><a className="links" href = {Resume}>Resume</a></li> */}
       </ul>
         </div>       
       </header>
