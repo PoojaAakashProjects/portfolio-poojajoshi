@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-poojajoshi/static/css/main.b0dd9478.css",
+    "main.css": "/portfolio-poojajoshi/static/css/main.53b906a5.css",
     "main.js": "/portfolio-poojajoshi/static/js/main.37880946.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-poojajoshi/static/js/787.1ed0c42c.chunk.js",
     "static/media/pic2.jpeg": "/portfolio-poojajoshi/static/media/pic2.62153015d6da0f1d4237.jpeg",
@@ -10,12 +10,12 @@
     "static/media/leetcode-white.svg": "/portfolio-poojajoshi/static/media/leetcode-white.854aa5b19ef58cbc0ec1a94ac2625a63.svg",
     "static/media/hackerrank.svg": "/portfolio-poojajoshi/static/media/hackerrank.5a46a8cdda674ffc20e5a35ea1d26352.svg",
     "index.html": "/portfolio-poojajoshi/index.html",
-    "main.b0dd9478.css.map": "/portfolio-poojajoshi/static/css/main.b0dd9478.css.map",
+    "main.53b906a5.css.map": "/portfolio-poojajoshi/static/css/main.53b906a5.css.map",
     "main.37880946.js.map": "/portfolio-poojajoshi/static/js/main.37880946.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-poojajoshi/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0dd9478.css",
+    "static/css/main.53b906a5.css",
     "static/js/main.37880946.js"
   ]
 }
