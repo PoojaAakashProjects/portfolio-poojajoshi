@@ -14,7 +14,7 @@ a {
 .logo {
   display: inline-block;
   width: 70%;
-  margin-left: auto;
+  margin-left: 1%;
   background-color: #3c383c82;
   color: white;
   box-shadow: 0 8px 8px -4px #14e956;
@@ -24,6 +24,8 @@ a {
   background-color: #3c383c82;
   color: white;
   margin: 30px;
+  padding: 40px; 
+  width: 85%;
 }
 
 .list {
@@ -48,22 +50,26 @@ a {
 footer { 
   width: 100%;
   background-color: #3c383c82;
-  /* position: fixed; */
   text-align: center;
   margin-top: auto;
   padding: 0px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
 
 .home {
   border: 1px solid black;
   display: flex;
+  justify-content: center;
 }
 
 img {
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 85%;
   text-align: center;
-  margin: 5px;
+  margin: 7px;
 }
 
 body {
@@ -77,6 +83,96 @@ body {
 
 .links:active, .links:hover {
   color: #14e956;
+}
+
+@media only screen and (max-width: 517px) {
+  .home {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
+
+.picture {
+  width: 85%;
+}
+
+@media only screen and (max-width: 517px) {
+  .picture {
+    width: 100%;
+    min-width: 517px;
+}
+}
+
+@media only screen and (max-width: 517px) {
+  .image {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 517px) {
+  footer {
+    width: 100%;
+    background-color: #3c383c82;
+    text-align: center;
+    margin-top: auto;
+    padding: 0px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-width: 602px;
+}
+}
+
+@media only screen and (max-width: 517px) {
+  .name {
+    margin: 0px;
+    width: 100%;
+    min-width: 517px;
+}
+}
+
+
+@media only screen and (max-width: 390px) {
+  .name {
+    /* margin: 0px;
+    width: 100%;
+    max-width: 390px; */
+    min-width: auto;
+}
+}
+
+@media only screen and (max-width: 390px) {
+  .name-header {
+    border: 1px solid pink;
+}
+}
+
+@media only screen and (max-width: 390px) {
+  footer {
+    border: 1px solid green;
+}
+}
+
+@media only screen and (max-width: 390px) {
+  .image {
+    border: 1px solid white;
+}
+}
+
+@media only screen and (max-width: 390px) {
+  .home {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+    border: 1px solid blue;
+}
 }
 
 

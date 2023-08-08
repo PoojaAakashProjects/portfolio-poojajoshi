@@ -13,15 +13,15 @@ function Appbody() {
         </div>
         <div className = 'header-link'>
         <ul className='unorderd'>
-        <li className='list'><NavLink to = '/'
+        <li className='list'><NavLink to = '/portfolio-poojajoshi/'
         activeClassName="activeLink"
         className="links"
         >Home</NavLink></li>
-        <li className='list'><NavLink to = '/projects'
+        <li className='list'><NavLink to = '/portfolio-poojajoshi/projects'
         activeClassName="activeLink"
         className="links"
         >Projects</NavLink></li>
-          <li className='list'><NavLink to = '/resume'
+          <li className='list'><NavLink to = '/portfolio-poojajoshi/resume'
         activeClassName="activeLink"
         className="links"
         >Resume</NavLink></li>

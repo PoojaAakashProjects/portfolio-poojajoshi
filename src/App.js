@@ -17,10 +17,10 @@ function App() {
      <div className="App" style={{backgroundColor:'black'}}>
       <Appbody/>
        <Routes>
-        <Route  path = '/' >
+        <Route  path = '/portfolio-poojajoshi' >
         <Route index  element={<Home/>} />
-        <Route path = '/projects' element={<Projects/>} />
-        <Route path = '/resume' element={<ResumePage/>} />
+        <Route path = 'projects' element={<Projects/>} />
+        <Route path = 'resume' element={<ResumePage/>} />
         </Route>
       </Routes>
      
